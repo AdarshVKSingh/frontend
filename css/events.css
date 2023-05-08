@@ -325,5 +325,6 @@ h2,h1{
   #droneImgGif{
     background-image: url('./../img/mobileevent.gif');
     background-size: contain;
+    background-repeat:no-repeat;
   }
 }
