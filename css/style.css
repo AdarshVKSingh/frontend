@@ -49,7 +49,7 @@ header {
   color: black;
 }
 
-.indias-biggest-drone12 h2{
+.indias-biggest-drone12 h2 {
   text-align: center;
 }
 
@@ -190,7 +190,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-.sptlgt{
+.sptlgt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,11 +208,11 @@ button:hover {
   margin: 0 10vw 0 10vw;
 }
 
-.spotlight img{
+.spotlight img {
   border-radius: 20px;
 }
 
-.container h2{
+.container h2 {
   text-align: center;
 }
 
@@ -364,102 +364,105 @@ footer a:hover {
 }
 
 .spotlight img {
-  border-radius: 20px;
+  border-radius: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  .spotlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spotlight img {
+    margin-bottom: 1.5rem;
+  }
+}
 
-
-@media screen and (max-width:600px){
-  body{
+@media screen and (max-width: 600px) {
+  body {
     overflow-x: hidden !important;
   }
-  p.TextBelowH5{
+  p.TextBelowH5 {
     text-align: center;
   }
-  h2.Media-Center{
+  h2.Media-Center {
     text-align: center;
     font-size: 32px;
   }
-  button#get-in-touch{
+  button#get-in-touch {
     width: 100%;
     padding: 6px;
   }
 
-  
-  div.indias-biggest-drone12{
+  div.indias-biggest-drone12 {
     width: 100%;
   }
-  div.era{
+  div.era {
     width: 100%;
   }
-  p.era-p{
+  p.era-p {
     font-size: smaller;
     font-weight: bolder;
   }
-  div.services{
+  div.services {
     display: inline-block;
   }
-  div.card{
+  div.card {
     margin-top: 3%;
     margin-left: 16%;
     font-size: small;
     box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
   }
-  button.serbut{
+  button.serbut {
     width: 50%;
     text-align: center;
   }
-  h3.industries-heading{
+  h3.industries-heading {
     color: #006d;
     text-align: center;
   }
-  p.icon-Texts{
+  p.icon-Texts {
     color: #006d;
   }
-  button.GetBTN{
+  button.GetBTN {
     font-size: larger;
     padding: 10px;
     padding-bottom: 0;
     padding-top: 2px;
   }
 
-  /* .industrial-solutions background-image{
-    height: 100%;
-  } */
-
-  .industrial-solutions{
-    height: 60vh;;
+  .industrial-solutions {
+    height: 60vh;
   }
-  .spotlight{
+  .spotlight {
     display: flex;
     flex-direction: column;
   }
-  #get-in-touch:hover{
+  #get-in-touch:hover {
     transform: scale(1.2);
     color: black;
     background-color: yellow;
   }
 }
 @media only screen and (max-width: 600px) {
-  .footer{
-   display: inline-flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   align-self: center;
+  .footer {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
   }
- 
-  .footer .footer-services{
+
+  .footer .footer-services {
     position: relative;
     left: -10vw;
   }
- 
-  .footer .footer-company{
-     position: relative;
-     left:-17vw;
-  }
-  .footer .main-office-gmap{
-    position: relative;
-  }
- }
 
+  .footer .footer-company {
+    position: relative;
+    left: -17vw;
+  }
+  .footer .main-office-gmap {
+    position: relative;
+  }
+}
