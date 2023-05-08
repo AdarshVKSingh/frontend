@@ -16,10 +16,12 @@
 #droneImgGif{
   display: inline-block;
   position: relative;
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   top: -10vh;
   background-image: url(../img/event.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #event {
