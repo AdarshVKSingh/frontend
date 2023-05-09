@@ -1,156 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Lilita+One&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Dancing+Script&family=DynaPuff&family=Fjalla+One&family=Great+Vibes&family=Kaushan+Script&family=Lilita+One&family=Pacifico&display=swap");
-@import url(./style.css);
 
-/* 
-body{
-    font-family: "Fjalla One", sans-serif;
-} */
-
-.navbar-nav {
-  margin-left: 9vw;
-  /* font-family: "Fjalla One", sans-serif; */
+p{
+  padding: 40px;
+}
+.font-bruno{
+  font-family: Bruno Ace SC;
 }
 
-.head {
-  width: 100%;
-  padding-block: 10rem;
-  background: url("./../img/ind_drone.png");
-  background-position: 100% 40%;
-  background-size: cover;
+#mainImg{
+  height: 60vh;
+  width: 100vw;
 }
 
-.block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10vh;
-  width: 70vw;
-  position: relative;
-  margin-left: 15vw;
-}
 
-.block p {
-  display: block;
-  width: 70vw;
-  margin-top: 3vh;
-}
-
-.block2 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  margin-top: 10vh;
-}
-
-.block2 h2 {
-  position: relative;
-  transform: translateX(15vw);
-}
-
-.contain {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-top: 10vh;
-  width: 75vw;
-  position: relative;
-  left: 15vw;
-}
-
-.contain img {
-  height: 35vh;
-  position: relative;
-  top: -1vh;
-  right: 10px;
-}
-
-.block3 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  margin-top: 10vh;
-  width: 70vw;
-  position: relative;
-  left: 15vw;
-}
-
-.block4 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  margin-top: 10vh;
-  width: 70vw;
-  position: relative;
-  margin-left: 15vw;
-}
-
-.block4-1 {
-  width: 32rem;
-  height: 18rem;
-}
-
-#getintouch {
-  position: relative;
-  top: 3vh;
-  left: 47vw;
-}
-
-main h1 {
-  font-family: "Bruno Ace SC", cursive;
-}
-main h2 {
-  font-family: "Bruno Ace SC", cursive;
-}
-
-@media only screen and (max-width: 1300px) {
-  .navbar {
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
   }
-  body {
-    overflow-x: hidden !important;
+  .navbar{
+    width: 100vw;
   }
-  h2#heading-first {
-    text-align: center;
+  header{
+    width: 100vw;
   }
-  .contain {
+  
+  .carousel{
     display: inline-block;
+    height: 40vh;
   }
-  #visual-img {
-    justify-content: center;
-    margin-left: 8%;
+  .carousel-inner{
+    display: inline-block;
+    height: 40vh !important;
   }
-  .block4 {
-    display: grid;
+  #changeCarausal{
+    display: inline-block;
+    height: 20vh;
   }
-  .media-response-over {
-    width: 50%;
-  }
-  .block4 {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 10vh;
-    position: relative;
-    margin-left: 15vw;
-  }
-  .custom-width4 {
-    max-width: calc(100% / 2);
-  }
-  .block4-1 {
-    width: 22rem;
-    height: auto;
-  }
-  .button-center {
-    text-align: center;
-    justify-content: center;
-  }
+
 }
