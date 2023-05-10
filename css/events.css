@@ -275,8 +275,8 @@ h1 {
 
   .droneRacing {
     /* display: inline-flex; */
-    height: 40vh;
-    width: 40vw;
+    height: 50vh;
+    width: 80vw;
     margin-bottom: 8vw;
     justify-content: center;
     align-items: center;
@@ -289,8 +289,8 @@ h1 {
 
   .placementDrive {
     /* display: inline-flex; */
-    height: 40vh;
-    width: 40vw;
+    height: 50vh;
+    width: 80vw;
     /* margin-left: 2vw; */
     justify-content: center;
     align-items: center;
@@ -330,7 +330,7 @@ h1 {
 
   .DronaGIF {
     display: flex;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
   }
@@ -363,7 +363,8 @@ h1 {
     text-align: center;
   }
   .card {
-    width: 70%;
+    display: inline-block;
+    width: 90%;
     font-size: larger;
   }
   div.main123 {
@@ -378,6 +379,7 @@ h1 {
   .card-group {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .venue1 {
@@ -386,10 +388,26 @@ h1 {
   }
 
   .card-group .card2 {
-    width: 70vw;
+    width: 80vw;
+    position: relative;
+    left: 5vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-radius: 5%;
+    
   }
   .card-group .card1 {
-    width: 70vw;
+    width: 80vw;
+    position: relative;
+    left: 5vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+      border-radius: 5%;
+    
   }
   .droneRacing {
     height: 40vh;
@@ -429,5 +447,33 @@ h1 {
     display: inline-block;
     position: relative;
     top: 2vh;
+  }
+  .droneRacing {
+    /* display: inline-flex; */
+    height: 50vh;
+    width: 80vw;
+    margin-bottom: 8vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  .placementDrive {
+    /* display: inline-flex; */
+    height: 50vh;
+    width: 80vw;
+    /* margin-left: 2vw; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    position: relative;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
 }
