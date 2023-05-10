@@ -382,6 +382,13 @@ footer a:hover {
   body {
     overflow-x: hidden !important;
   }
+  header{
+    width: 100vw;
+  }
+  #gif-bg p{
+    text-align: center;
+    font-weight: 500;
+  }
   p.TextBelowH5 {
     text-align: center;
   }
@@ -409,13 +416,25 @@ footer a:hover {
   }
   div.card {
     margin-top: 3%;
-    margin-left: 16%;
+    margin-left: 13vw;
     font-size: small;
     box-shadow: 0.5rem 0.5rem 1rem 0.5rem gray;
   }
+
+  .card button{
+    margin-left: 5vw;
+    
+  }
   button.serbut {
     width: 50%;
+    /* position: relative;
+    top: 10vh; */
     text-align: center;
+  }
+
+  #getintouch{
+    position: relative;
+    top: 7vh;
   }
   h3.industries-heading {
     color: #006d;
@@ -431,6 +450,9 @@ footer a:hover {
     padding-top: 2px;
   }
 
+  .industrial{
+    background-size: 60vh 100vw;
+  }
   .industrial-solutions {
     height: 60vh;
   }
@@ -442,6 +464,13 @@ footer a:hover {
     transform: scale(1.2);
     color: black;
     background-color: yellow;
+  }
+
+  .spotlight{
+    width: 90vw;
+  }
+  .spotlight img{
+    width: 85vw;
   }
 }
 @media only screen and (max-width: 600px) {
